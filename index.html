@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog Audit</title>
+    <!-- Include your CSS stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Catalog Audit</h1>
+    <div class="upload-form">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv">
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+    <!-- You can add additional content or instructions here -->
+</body>
+
+</html>

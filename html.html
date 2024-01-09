@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+</head>
+
+<body>
+    <h1>Welcome to Catalog Audit</h1>
+    <p>Please upload your file to start the audit:</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+
+</html>
