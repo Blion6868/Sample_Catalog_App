@@ -1,0 +1,11 @@
+/* styles.css */
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://cutewallpaper.org/27/blue-mountain-minimalist-wallpaper/2311827282.jpg') center center fixed;
+    background-size: cover;
+}
+
